@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --color1: #ff3c00c9;
+    --color2: #737373;
+    --color3: #ffff;
+
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: "Sriracha", cursive;
+    --font3: "Passion One", sans-serif;
+
+}
+
+
+
+
+
+
+
+
+body {
+    min-height: 100vh;
+    /*Apliquei essa estilização no body para poder dar um limite minimo de altura para interface*/
+    font-family: var(--font1);
+
+}
+
+
+
+
+header {
+    padding: 1em;
+    background-color: var(--color1);
+
+
+}
+
+
+
+section {
+    padding-top: 9vh;
+    /*Apliquei essa estilização para dar um padding top e padding bottom na section*/
+    padding-bottom: 9vh;
+    line-height: 2em;
+    font-family: var(--font2);
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+section.without-color {
+    padding-left: 2em;
+
+}
+
+
+
+section.img {
+    padding-left: 1em;
+    background-size: cover;
+    background-attachment: fixed;
+    /*Apliquei essa estilização para fixar as sectionj imagens como fixed*/
+    box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.527);
+
+}
+
+
+
+
+
+
+
+
+section.img01 {
+    background-image: url(img/backgound001.jpg);
+    background-position: left left;
+
+
+
+}
+
+
+
+
+section.img02 {
+    background-image: url(img/background002.jpg);
+    background-position: right center;
+
+}
+
+
+
+
+section.img p {
+    background-color: #0000005d;
+    display: inline-block;
+    padding: 1em;
+    color: var(--color3);
+    text-shadow: 2px 1px 2px rgb(0, 0, 0);
+    border-radius: 25px 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+header>h1 {
+    text-align: center;
+    color: var(--color3);
+    font-size: 40px;
+    text-shadow: 1px 1px 2px black;
+    font-variant: small-caps;
+    font-family: var(--font3);
+
+
+}
+
+
+
+
+header>p {
+    text-align: center;
+    color: var(--color3);
+    padding-bottom: 1em;
+    font-size: 19px;
+
+}
+
+
+
+
+
+
+
+
+a {
+    color: yellow;
+    text-decoration: none;
+
+
+}
+
+
+
+
+
+
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+footer {
+    padding: 1em;
+    background-color: var(--color1);
+    text-align: center;
+    color: var(--color3);
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+footer>p {
+    font-size: 1em;
+}
